@@ -1,4 +1,7 @@
-# test coverage for  [lost (v8.0.0)](http://lostgrid.org)  [![npm package](https://img.shields.io/npm/v/npmtest-lost.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-lost) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-lost.svg)](https://travis-ci.org/npmtest/node-npmtest-lost)
+# npmtest-lost
+
+#### test coverage for  [lost (v8.0.0)](http://lostgrid.org)  [![npm package](https://img.shields.io/npm/v/npmtest-lost.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-lost) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-lost.svg)](https://travis-ci.org/npmtest/node-npmtest-lost)
+
 #### LostGrid is a powerful grid system built in PostCSS that works with any preprocessor and even vanilla CSS.
 
 [![NPM](https://nodei.co/npm/lost.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/lost)
