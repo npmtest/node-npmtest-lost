@@ -1,6 +1,6 @@
 # npmtest-lost
 
-#### test coverage for  [lost (v8.0.0)](http://lostgrid.org)  [![npm package](https://img.shields.io/npm/v/npmtest-lost.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-lost) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-lost.svg)](https://travis-ci.org/npmtest/node-npmtest-lost)
+#### basic test coverage for  [lost (v8.0.0)](http://lostgrid.org)  [![npm package](https://img.shields.io/npm/v/npmtest-lost.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-lost) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-lost.svg)](https://travis-ci.org/npmtest/node-npmtest-lost)
 
 #### LostGrid is a powerful grid system built in PostCSS that works with any preprocessor and even vanilla CSS.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-lost/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-lost/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-lost/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-lost/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-lost/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-lost/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-lost/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-lost/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-lost/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-lost/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-lost/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-lost/build/coverage.html/index.html)
 
@@ -87,7 +87,8 @@
         "lint": "eslint lib/*.js lost.js",
         "test": "istanbul cover node_modules/mocha/bin/_mocha -- test/*.js"
     },
-    "version": "8.0.0"
+    "version": "8.0.0",
+    "bin": {}
 }
 ```
 
